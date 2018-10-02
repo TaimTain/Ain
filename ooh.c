@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   int a = 0;
@@ -9,5 +10,9 @@ int main() {
 
   printf("test");
   printf("ee");
+
+  if(a == 3){
+    exit(0);
+  }
   return 0;
 }
