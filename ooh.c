@@ -7,6 +7,7 @@ int main() {
     int b = 1;
   }
 
-  print("ee");
+  printf("test");
+  printf("ee");
   return 0;
 }
